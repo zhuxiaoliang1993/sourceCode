@@ -48,6 +48,19 @@
             <artifactId>spring-session</artifactId>
             <version>1.3.3.RELEASE</version>
         </dependency>
+        <!--aes256 开始-->
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk15on</artifactId>
+            <version>1.56</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.14</version>
+            <scope>compile</scope>
+        </dependency>
+        <!--aes256 结束-->
     </dependencies>
     <build>
         <plugins>
